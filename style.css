@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   --gray-bg-color: #6D747D;
   --dark-bg-color: #1F2937;
-  --button-color: #3882F6;
+  --blue-color: #3882F6;
   --light-accent-color: #E5E7EB;
   --dark-text-color: #1F2937;
+  font-family: "Roboto", "sans serif";
 }
 
 html {
@@ -40,7 +43,7 @@ h1 {
 .hero button {
   font-size: 18px; 
   font-weight: 600;
-  background-color: var(--button-color);
+  background-color: var(--blue-color);
   color: var(--light-accent-color);
   border-style: none;
   padding: 10px 30px;
@@ -48,14 +51,14 @@ h1 {
 }
 
 .hero span {
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .hero .hero-image {
   background-color: var(--gray-bg-color); 
   color: var(--light-accent-color);
   border-style: none;
-  flex-basis: 50%;
+  flex-basis: 55%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,8 +72,9 @@ blockquote {
   color: var(--dark-text-color);
 }
 
-#footer {
-  background-color: var(--dark-bg-color);
+#header-logo {
+  font-weight: 800;
+  margin-right: auto;
 }
 
 nav {
@@ -89,6 +93,38 @@ nav a {
  color: var(--light-accent-color);
 }
 
-#header-logo {
-  margin-right: auto;
+#information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px 48px;
+  margin: 32px 0px 96px;
+}
+
+.information-header {
+  margin: 0;
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 32px;
+}
+
+.information-image {
+  margin: 0px;
+  margin-bottom: 8px;
+  height: 150px;
+  width: 150px;
+  border: 3px solid;
+  border-color: var(--blue-color);
+  border-radius: 8px;
+  color: rgba(0,0,0,0);
+}
+
+figure {
+  width: 150px;
+  text-align: center;
+  margin: 0;
+}
+
+#footer {
+  background-color: var(--dark-bg-color);
 }
