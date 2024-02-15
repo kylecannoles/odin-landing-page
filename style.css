@@ -9,9 +9,9 @@
   font-family: "Roboto", "sans serif";
 }
 
-html {
-  max-width: 1400px;
-  margin: auto;
+body {
+  margin: 0;
+  width: 100vw;
 }
 
 a {
@@ -123,6 +123,23 @@ figure {
   width: 150px;
   text-align: center;
   margin: 0;
+}
+
+#testimonials {
+  background-color: var(--light-accent-color);
+  display: flex;
+  justify-content: center;
+}
+
+blockquote {
+  padding: 64px 0px;
+  max-width: 820px;
+}
+
+blockquote footer {
+  text-align: end;
+  font-weight: 600;
+  font-style: normal;
 }
 
 #footer {
