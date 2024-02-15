@@ -14,15 +14,15 @@ body {
   width: 100vw;
 }
 
+body section {
+  padding: 0px 15%;
+}
+
 a {
   text-decoration: none;
 }
 
-section {
- padding: 0px 15%;
-}
-
-h1 {
+h1,h2,h3,p {
   margin: 0px;
 }
 
@@ -140,6 +140,33 @@ blockquote footer {
   text-align: end;
   font-weight: 600;
   font-style: normal;
+}
+
+section.calltoaction {
+  display: flex;
+  justify-content: center; 
+  color: var(--light-accent-color);
+}
+
+.cta-container {
+  background-color: var(--blue-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 96px;
+  margin: 96px 0px;
+  width: 100%;
+}
+
+.sign-up-btn {
+  color: inherit;
+  background-color: inherit;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 #footer {
