@@ -15,8 +15,10 @@ body {
   font-size: 18px;
 }
 
-body section {
-  padding: 0px 15%;
+section,
+nav,
+footer {
+  padding: 0px 20%;
 }
 
 a {
@@ -88,7 +90,7 @@ nav {
   display: flex;
   justify-content: space-around;
   background-color: var(--dark-color);
-  padding: 20px 15% 100px;
+  padding: 20px 20% 100px;
   gap: 30px;
 }
 
@@ -182,5 +184,6 @@ blockquote footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 28px 0px;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
